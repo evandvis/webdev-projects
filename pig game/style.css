@@ -73,11 +73,11 @@ main {
   font-weight: 400;
 }
 
-.player--active .current {
+.player--active .total {
   opacity: 1;
 }
 
-.current {
+.total {
   background-color: #c7365f;
   opacity: 0.8;
   border-radius: 9px;
@@ -88,14 +88,14 @@ main {
   transition: all 0.75s;
 }
 
-.current-label {
+.total-label {
   text-transform: uppercase;
   margin-bottom: 1rem;
   font-size: 1.7rem;
   color: #ddd;
 }
 
-.current-score {
+.total-score {
   font-size: 3.5rem;
 }
 
@@ -164,4 +164,8 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.hidden{
+  display: none;
 }
