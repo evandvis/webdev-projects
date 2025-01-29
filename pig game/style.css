@@ -77,7 +77,7 @@ main {
   opacity: 1;
 }
 
-.total {
+.current {
   background-color: #c7365f;
   opacity: 0.8;
   border-radius: 9px;
@@ -88,14 +88,14 @@ main {
   transition: all 0.75s;
 }
 
-.total-label {
+.current-label {
   text-transform: uppercase;
   margin-bottom: 1rem;
   font-size: 1.7rem;
   color: #ddd;
 }
 
-.total-score {
+.current-score {
   font-size: 3.5rem;
 }
 
